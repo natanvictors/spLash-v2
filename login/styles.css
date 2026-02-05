@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+    background-color: #eeeeff;
+    font-family: "Lexend", sans-serif;
+}
+
+.user-input {
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #142d98;
+    color: #eeeeff;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px grey;
+}
+
+input,
+#submit-button {
+    background-color: #4932f3;
+    color: #eeeeff;
+    border: none;
+}
+
+input {
+    border-radius: 50px;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-left: 14px;
+}
+
+#submit-button {
+    border-radius: 14px;
+    height: 30px;
+    width: 80px;
+    background-color: #9d96d9;
+    cursor: pointer;
+}
+
+.create-account {
+    font-size: 12px;
+}
+
+.create-account a {
+    text-decoration: none;
+    color:#9D96D9
+}
